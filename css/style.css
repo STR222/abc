@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.box{
+    width: 743px; 
+    height: 562px;
+    background: url('../images/bg_blue_02.png') no-repeat;
+    margin: 0 auto;
+}
+.box h1{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #6A9AA4;
+}
+.box h1 span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url('../images/icon1.gif') 10px -334px;
+    vertical-align: middle;
+}
+.main{
+    padding: 0 50px;
+}
+.main p{
+    font-size: 14px;
+    margin: 10px 0;
+}
+.top{
+    border-bottom: dashed 1px #ccc;
+    height: 220px;
+}
+.minbox{
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #999;
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 18px;
+}
+.bottom{
+    clear: both;
+}
+.bottom ul{
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    padding: 15px;
+    overflow-y: scroll;
+}
+.bottom ul li{
+    background: url(../images/bg_whitepic.gif) no-repeat -3px -83px;
+}
+.inset{
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+.inset span{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 15px;
+    height: 15px; 
+    background: url(../images/ico_close.png) no-repeat 0 0;
+}
+.inset img{
+    display:block;
+    margin: 16px 0 10px 25px;
+}
+.bg{
+    background: url(../images/bg_whitepic.gif) no-repeat -3px -3px;
+}
